@@ -3,7 +3,7 @@ import { Story, StoryObj, Meta} from '@storybook/react';
 import {TextArgsModel} from "./Text.model"
 
 export default {
-  title: "Components/Text",
+  title: "Components/Elements/Text",
   component: Text,
   argTypes: {
     size:{
