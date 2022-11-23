@@ -16,19 +16,17 @@ export const InputEmail: StoryObj<InputArgsModel> = {
   render: Template.bind({}),
   name: 'Input / email',
   args: {
-    placeholder:'Digite seu e-mail...',
-    type: 'email',
-    label: 'e-mail',
+    label:'Email',
+    placeholder: 'Type your email...',
   },
 };
 
 export const InputUser: StoryObj<InputArgsModel> = {
   render: Template.bind({}),
-  name: 'Input / usuário',
+  name: 'Input / password',
   args: {
-    placeholder:'Digite sua senha...',
-    type: 'password',
-    label: 'Senha',
+    label:'Password',
+    placeholder: 'Type your password...',
   },
 };
 

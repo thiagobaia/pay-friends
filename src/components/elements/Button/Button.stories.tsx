@@ -16,7 +16,7 @@ export const ButtonPrimary: StoryObj<ButtonArgsModel> = {
   render: Template.bind({}),
   name: 'Button Primary',
   args: {
-    label: 'Entrar',  
+    label: 'Login',  
     variant: 'primary',
     labelSize: 'sm'
   },
@@ -26,7 +26,7 @@ export const ButtonOutline: StoryObj<ButtonArgsModel> = {
   render: Template.bind({}),
   name: 'Button Outline',
   args: {
-    label: 'cancelar',
+    label: 'cancel',
     variant: 'outline',
     labelSize: 'sm'
   },

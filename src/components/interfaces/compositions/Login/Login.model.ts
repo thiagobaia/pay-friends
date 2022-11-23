@@ -3,6 +3,6 @@ import {ButtonArgsModel} from '../../../elements/Button/Button.model'
 
 export interface LoginArgsModel {
     InputEmail: InputArgsModel;
-    InputUser: InputArgsModel;
+    InputPassword: InputArgsModel;
     ButtonPrimary: ButtonArgsModel;
 }

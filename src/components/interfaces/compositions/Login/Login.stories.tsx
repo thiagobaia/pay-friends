@@ -13,20 +13,24 @@ export const Default: StoryObj<LoginArgsModel> = {
   render: Template.bind({}),
   name: "Login",
   args: {
-    InputEmail: {
-      placeholder: "Digite seu e-mail...",
-      type: "email",
-      label: "e-mail",
-    },
-    InputUser: {
-      placeholder: "Digite sua senha...",
-      type: "password",
-      label: "Senha",
-    },
     ButtonPrimary: {
       label: "Entrar",
       variant: "primary",
       labelSize: "sm",
     },
+    InputEmail: {
+      label:'Email',
+      id:'email',
+      placeholder: 'Type your email...',
+      type:'email',
+      value:'email'
+    },
+    InputPassword:{
+      label:'Password',
+      id:'password',
+      placeholder: 'Type your password...',
+      type:'password',
+      value:'password'
+    }
   },
 };
