@@ -24,6 +24,7 @@ export const Login: React.FC<LoginArgsModel> = ({InputEmail, InputPassword, Butt
     validationSchema: schema,
     onSubmit: async (values, actions) => {
       console.log(values);
+      console.log(actions);
       await new Promise((resolve) => setTimeout(resolve, 1000));
       actions.resetForm();
     },
