@@ -38,6 +38,12 @@ module.exports = {
       red: {
         400: "#D63E3E",
       },
+
+      orange: {
+        500: "#FF6500",
+      },
+
+      
     },
 
     extend: {
