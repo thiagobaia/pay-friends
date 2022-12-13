@@ -1,0 +1,2 @@
+var s=Object.defineProperty;var t=(e,r)=>s(e,"name",{value:r,configurable:!0});import{P as o}from"./Price.a6612bfc.js";import{j as n}from"./jsx-runtime.e29906b0.js";import"./index.fe7f1a6c.js";import"./iframe.469ab527.js";const d={title:"Components/Elements/Price",component:o},i=t(({...e})=>n(o,{...e}),"Template"),u={render:i.bind({}),name:"Price",args:{value:100,oldValue:150,pixDiscount:5}},f=["Default"];export{u as Default,f as __namedExportsOrder,d as default};
+//# sourceMappingURL=Price.stories.41656a19.js.map
