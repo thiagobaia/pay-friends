@@ -33,6 +33,7 @@ module.exports = {
 
       blue: {
         300: "#007DFE",
+        400: "#0060B1",
       },
 
       red: {
@@ -42,13 +43,16 @@ module.exports = {
       orange: {
         500: "#FF6500",
       },
-
-      
     },
 
     extend: {
       fontFamily: {
         sans: "Inter, sans-serif",
+      },
+    },
+    extend: {
+      width: {
+        1504: "94rem",
       },
     },
   },

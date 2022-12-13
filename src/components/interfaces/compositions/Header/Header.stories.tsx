@@ -1,34 +1,20 @@
-import { ProductCard } from "./Header";
+import { Header } from "./Header";
 import { Story, StoryObj } from "@storybook/react";
-import { ProductCardModel } from "./Header.model";
-
-//assets
-import ProductImage from '../../../../assets/component/ProductCard/oculos-masculino-bossa-nova-preto-fosco.png'
+import { HeaderModel } from "./Header.model";
 
 export default {
-  title: "Components/Compositions/Product Card",
-  component: ProductCard,
+  title: "Components/Compositions/Header",
+  component: Header,
 };
 
-const Template: Story<ProductCardModel> = ({ ...args }) => (
-  <ProductCard {...args} />
+const Template: Story<HeaderModel> = ({ ...args }) => (
+  <Header {...args} />
 );
 
-export const Default: StoryObj<ProductCardModel> = {
+export const Default: StoryObj<HeaderModel> = {
   render: Template.bind({}),
-  name: "Product Card",
+  name: "Header",
   args: {
-    ProductImage:ProductImage,
-    ProductTitle:
-      "óculos de sol masculino chilli beans bossa nova fosco preto",
-    ProductSubTitle: "What is Lorem Ipsum?",
-    ProductDescription:
-      "the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    ProductCategory: "óculos",
-    ProductGenere: "female",
-    ProductPrice: 100,
-    ProductForwardPrice: 55,
-    ProductOldPrice: 99,
-    ProductPixDiscount: 5,
+   
   },
 };
